@@ -1,0 +1,7 @@
+Start-Process -WindowStyle Hidden code C:\Users\progweb\Documents\Projetos\cucaweb-angular\
+Start-Process -WindowStyle Hidden code C:\Users\progweb\Documents\Projetos\cucaweb-node\
+invoke-expression 'wt powershell -noprofile -noexit -Command { write-host "Angular está sendo executado!"; set-location "C:\Users\progweb\Documents\Projetos\cucaweb-angular\"; npm run start-dev ; sleep }'
+invoke-expression 'wt powershell -noprofile -noexit -Command { write-host "Node está sendo executado!"; set-location "C:\Users\progweb\Documents\Projetos\cucaweb-node\"; npm run start-dev ; sleep }'
+Start-Process msedge.exe -ArgumentList "http://localhost:4200 http://app.cucafresca.com.br"
+Start-Process -FilePath 'C:\Program Files\DBeaver\dbeaver.exe' 
+Start-Process -FilePath 'C:\Users\progweb\Desktop\Postman.lnk' 
