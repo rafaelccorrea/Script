@@ -5,3 +5,9 @@ invoke-expression 'wt powershell -noprofile -noexit -Command { write-host "Node 
 Start-Process msedge.exe -ArgumentList "http://localhost:4200 http://app.cucafresca.com.br"
 Start-Process -FilePath 'C:\Program Files\DBeaver\dbeaver.exe' 
 Start-Process -FilePath 'C:\Users\progweb\Desktop\Postman.lnk' 
+
+
+Start-Process -WindowStyle Hidden code 'C:\Users\User\Desktop\Lets_FoodAPI'
+Start-Process -WindowStyle Hidden code 'C:\Users\User\Desktop\Lets_Food'
+Start-Process -FilePath 'C:\Users\User\Desktop\Postman.lnk' 
+Start-Process -FilePath 'C:\Users\User\Desktop\pgAdmin 4 v6.lnk'
